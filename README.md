@@ -1,7 +1,7 @@
 # Aprender-git
 ## Aprendizaje de Git desde 0. En este repositorio muestro como voy aprendiendo poco a poco los comandos de git.
 
-!{imagen de git hub decorativa.](https://www.gettyimages.es/fotos/github)
+![imagen de git hub decorativa.](https://www.gettyimages.es/fotos/github)
 
 ## Comandos empleados en el aprendizaje
 
