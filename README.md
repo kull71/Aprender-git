@@ -1,12 +1,12 @@
 # Aprender-git
-##Aprendizaje de Git desde 0. En este repositorio muestro como voy aprendiendo poco a poco los comandos de git.
+## Aprendizaje de Git desde 0. En este repositorio muestro como voy aprendiendo poco a poco los comandos de git.
 
-##Comandos empleados en el aprendizaje
+## Comandos empleados en el aprendizaje
 
-##Muestra la versión de git instalada
-...
+## Muestra la versión de git instalada
+,,,
   git --version
-...
+,,,
 
 Brinda ayuda sobre los comandos
 ...
