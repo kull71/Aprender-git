@@ -10,11 +10,12 @@
   git --version
 ```
 
-Brinda ayuda sobre los comandos
+## Brinda ayuda sobre los comandos
 ```
   git help <comandos>*
 ```
-Repositorio local
+## Repositorio local
+
 Configura el usuario
 ```
   git config --global user.name <usuario>
