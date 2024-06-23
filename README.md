@@ -192,3 +192,64 @@ Clona un repositorio remoto en una rama específica
 ```
 git clone --branch <rama> <url>
 ```
+# Tips de sintaxis para dar formato a los README
+## Los archivos README.md tienen formato de lenguaje de marcado markdown que es mucho más sencillo que el lenguaje HTML. Veamos algunos ejemplo:
+### Insertar HN
+```
+# Esto es un H1
+## Esto es un H2
+### Esto es un H3
+#### Esto es un H4
+````
+#### Cursivas
+
+`*Esto es cursiva*`
+
+#### Negrilla
+
+`**Esto es negrilla**`
+
+#### Insertar imágenes
+
+`![texto cualquiera por si no carga la imagen](url completa de la imagen)`
+
+Encerrar la linea de código entre la tilde al revez ` Código en ASCII: alt96
+
+Ejemplo:
+
+<pre><code>`tu linea de codigo`</code></pre>
+
+#### Insertar un bloque de código
+
+Encerrar el bloque de código entre tres tildes al revés ``` Código en ASCII: alt96
+Ejemplo:
+
+<pre>
+		```
+		
+		//bloque de codigo...
+		
+		```
+</pre>#### Resaltar el código
+
+Encerramos el bloque de código con las tres tildes al revés ``` y le ponemos al lado el lenguaje que se está usando, ejemplo:
+
+<pre>
+		```java
+		
+		//bloque de codigo...
+		
+		```
+</pre>
+#### Referencias externas sobre Markdown
+
+Para mayor información sobre la sintaxis del markdown:
+
+http://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo
+
+https://help.github.com/articles/markdown-basics
+
+https://guides.github.com/features/mastering-markdown/
+
+
+
