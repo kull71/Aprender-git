@@ -1,15 +1,18 @@
 # Aprender-git
 Aprendizaje de Git desde 0. En este repositorio muestro como voy aprendiendo poco a poco los comandos de git.
 
-
-
 Comandos empleados en el aprendizaje
+
 Muestra la versión de git instalada
 ...
   git --version
 ...
+
 Brinda ayuda sobre los comandos
-git help <comandos>*
+...
+  git help <comandos>*
+...
+
 Repositorio local
 Configura el usuario
 git config --global user.name <usuario>
