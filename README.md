@@ -11,57 +11,102 @@
 ```
 
 Brinda ayuda sobre los comandos
-...
+```
   git help <comandos>*
-...
-
+```
 Repositorio local
 Configura el usuario
-git config --global user.name <usuario>
+```
+  git config --global user.name <usuario>
+```
 Configura el email
-git config --global user.email <correo>
+```
+  git config --global user.email <correo>
+```
 Lista la configuración de git
-git config --list
+```
+  git config --list
+```
 Inicia un nuevo repositorio
-git init
+```
+  git init
+```
 Lista el estado de los archivos
-git status
+```
+  git status
+```
 Agrega todos los archivos pendientes de cambios
-git add --all
+```
+  git add --all
+```
 Agrega todos los archivos pendientes de cambios desde la carpeta actual
-git add .
+```
+  git add .
+```
 Guarda en el repositorio local todos los archivos agregados
-git commit -m "<mensaje>"
+```
+  git commit -m "<mensaje>"
+```
 Abre un editor y permite modificar el último commit (Reemplaza el último commit)
-git commit --amend
+```
+  git commit --amend
+```
 Crea un tag
-git tag <tag> -m "<mensaje>"
+```
+  git tag <tag> -m "<mensaje>"
+```
 Lista tags
-git tag
+```
+  git tag
+```
 Borra un tag en específico
-git tag -d <tag>
+```
+  git tag -d <tag>
+```
 Hace un tag en un commit anterior
-git tag -a <tag> <commit> -m "<mensaje>"
+```
+  git tag -a <tag> <commit> -m "<mensaje>"
+```
 Mostrar información del tag
-git show <tag>
+```
+  git show <tag>
+```
 Deshace el último commit, eliminando los cambios del área de preparación.
-git reset
+```
+  git reset
+```
 Deshace el último commit, conservando cambios en el área de preparación
-git reset --soft
+```
+  git reset --soft
+```
 Cambiamos a un commit en específico perdiendo todos los cambios posteriores a este.
-git reset --hard <commit>
+```
+  git reset --hard <commit>
+```
 Muestra los commit realizados hasta el momento
-git log --oneline
+```
+  git log --oneline
+```
 Lista todos los commits de todas las ramas de forma gráfica tomando como base la rama actual
-git log --oneline --graph --all
+```
+  git log --oneline --graph --all
+```
 Cambia a un commit en específico con todos sus cambios
-git checkout <commit>
+```
+  git checkout <commit>
+```
 Muestra los cambios dos commits
-git diff <commit> <commit>
+```
+  git diff <commit> <commit>
+```
 Crea una nueva rama
-git branch <rama>
+```
+  git branch <rama>
+```
 Nos muestra en que rama estamos y lista las demás
-git branch
+```
+  git branch
+```
 Nos movemos de la rama actual a una específica
 git checkout <rama>
 Crea y nos movemos a la nueva rama
