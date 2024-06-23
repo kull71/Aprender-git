@@ -4,9 +4,9 @@
 ## Comandos empleados en el aprendizaje
 
 ## Muestra la versión de git instalada
-,,,
+```
   git --version
-,,,
+```
 
 Brinda ayuda sobre los comandos
 ...
